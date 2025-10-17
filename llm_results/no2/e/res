@@ -1,0 +1,22 @@
+
+3266 ms
+S ::= A Remainder
+A ::= 'a' A / 'a' 'b'* / ε
+Remainder ::= .*
+
+2321 ms
+S ::= S -> A? 'b'*
+A ::= A -> 'a'+ 'b'*
+
+1867 ms
+S ::= A
+A ::= ('a' 'b'* )*
+
+2227 ms
+S ::= R
+R ::= 'a' R 'b' / 'a' R / ε
+
+1921 ms
+S ::= A
+A ::= 'a' B / 'a'*
+B ::= 'b'+

@@ -1,0 +1,255 @@
+- Examples :
+-  -> 
+- a -> 
+- aa -> 
+- ab -> 
+- abbb -> 
+- aaaaaaa -> 
+- aba -> a
+- abb -> 
+- aaaba -> ba
+- aaaa -> 
+- b -> b
+- ba -> ba
+- bb -> bb
+- bbbb -> bbbb
+- aaa -> 
+- aaaaa -> 
+- aaaaaa -> 
+- aaaaaaaa -> 
+- aaaaaaaaa -> 
+- aaaaaaaaaa -> 
+- aaaaaaaaaaa -> 
+- aaaaaaaaaaaa -> 
+- aaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -> 
+- abbbb -> 
+- abbbbb -> 
+- abbbbbb -> 
+- abbbbbbb -> 
+- abbbbbbbb -> 
+- abbbbbbbbb -> 
+- abbbbbbbbbb -> 
+- abbbbbbbbbbb -> 
+- abbbbbbbbbbbb -> 
+- abbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- abbbbbbbbbbbbbbbbbbbbbbbbbbbbbb -> 
+- aabbaaabababb -> bbaaabababb
+- bbabba -> bbabba
+- bbabbabab -> bbabbabab
+- abab -> ab
+- ababbbbb -> abbbbb
+- aaaabaaababa -> baaababa
+- aabbbbbbb -> bbbbbbb
+- abababaa -> ababaa
+- ababbba -> abbba
+- ababbaabaab -> abbaabaab
+- aabaaaa -> baaaa
+- abaaaabbaba -> aaaabbaba
+- baaabababab -> baaabababab
+- abaabbb -> aabbb
+- bbababab -> bbababab
+- bababaaaba -> bababaaaba
+- baabaabaab -> baabaabaab
+- aababab -> babab
+- bbbaabbabb -> bbbaabbabb
+- baaabbbaabb -> baaabbbaabb
+- abaaaa -> aaaa
+- aaabaaaaaab -> baaaaaab
+- ababaa -> abaa
+- aaabaabb -> baabb
+- bbaaabb -> bbaaabb
+- baabab -> baabab
+- aababa -> baba
+- aabaabababbb -> baabababbb
+- abaaabbabba -> aaabbabba
+- babbbbabbb -> babbbbabbb
+- baaabaaa -> baaabaaa
+- bbbbbbbabaaa -> bbbbbbbabaaa
+- abbbabbbbb -> abbbbb
+- abba -> a
+- abaaabbabaa -> aaabbabaa
+- aaaabbbbbb -> bbbbbb
+- abaabaa -> aabaa
+- babaabab -> babaabab
+- bbbbbab -> bbbbbab
+- aabbaaa -> bbaaa
+- bababa -> bababa
+- abbab -> ab
+- aaabbab -> bbab
+- abaab -> aab
+- abbaabbbabbbba -> aabbbabbbba
+- abbbab -> ab
+- bbaaaaaaaabb -> bbaaaaaaaabb
+- abababbab -> ababbab
+- bbabaaaaaaba -> bbabaaaaaaba
+- aabbabbaa -> bbabbaa
+- babaaab -> babaaab
+- babbbaa -> babbbaa
+- abbaaaaab -> aaaaab
+- aabbbababab -> bbbababab
+- ababbbaab -> abbbaab
+- baabbbbab -> baabbbbab
+- aabaaabbbabbbb -> baaabbbabbbb
+- bababaaabbb -> bababaaabbb
+- baabbaaaba -> baabbaaaba
+- aabbbabb -> bbbabb
+- abaa -> aa
+- abbabbb -> abbb
+- aaabbabaaab -> bbabaaab
+- bbaaaab -> bbaaaab
+- abababaabbb -> ababaabbb
+- baaba -> baaba
+- aaababbb -> babbb
+- babbbaaa -> babbbaaa
+- aaabaabbaabb -> baabbaabb
+- bbbababbab -> bbbababbab
+- bbbbbaaa -> bbbbbaaa
+- baabaaaaab -> baabaaaaab
+- bbbbabab -> bbbbabab
+- aababbaa -> babbaa
+- bbbbbbbbbb -> bbbbbbbbbb
+- bbabbbbbbbb -> bbabbbbbbbb
+- aaaabbbaababbaba -> bbbaababbaba
+- ababbaabab -> abbaabab
+- aabaabb -> baabb
+- aababb -> babb
+- babbbabab -> babbbabab
+- bbaaabaab -> bbaaabaab
+- babbab -> babbab
+- bbabbbaba -> bbabbbaba
+- ababbbbaba -> abbbbaba
+- bababab -> bababab
+- babaaabbbaba -> babaaabbbaba
+- babaababbaaaba -> babaababbaaaba
+- abbbbbaab -> aab
+- aabbaabbaa -> bbaabbaa
+- ababaabbabaaab -> abaabbabaaab
+- bbbaaabba -> bbbaaabba
+- aaaababaaab -> babaaab
+- bbbabaab -> bbbabaab
+- abaabbabbaaa -> aabbabbaaa
+- ababababa -> abababa
+- aaabaaa -> baaa
+- abaaab -> aaab
+- aabbababbb -> bbababbb
+- abbba -> a
+- aabbbba -> bbbba
+- ababaabb -> abaabb
+- babbabbb -> babbabbb
+- babababaaa -> babababaaa
+- abababbaa -> ababbaa
+- bababbaaab -> bababbaaab
+- aaaaaabba -> bba
+- ababbbaaabb -> abbbaaabb
+- babaabbbaaa -> babaabbbaaa
+- bbaabbaab -> bbaabbaab
+- babaab -> babaab
+- bbabbbbaabb -> bbabbbbaabb
+- bbaabbb -> bbaabbb
+- aaabaa -> baa
+- bbbbbbbbaa -> bbbbbbbbaa
+- babbbaaba -> babbbaaba
+- bbbaabbaa -> bbbaabbaa
+- bbbbaa -> bbbbaa
+- abaabba -> aabba
+- abbaaaabbab -> aaaabbab
+- baaaabab -> baaaabab
+- bbbbabbba -> bbbbabbba
+- bbabaaaaaab -> bbabaaaaaab
+- bbbaba -> bbbaba
+- baabaa -> baabaa
+- aabbbabbbaabaa -> bbbabbbaabaa
+- baabb -> baabb
+- aaaabababb -> bababb
+- aababbaabbaa -> babbaabbaa
+- babaa -> babaa
+- bbaababaaaaa -> bbaababaaaaa
+- babbbaaaaab -> babbbaaaaab
+- bbaaabaa -> bbaaabaa
+- bbabaaababaaaa -> bbabaaababaaaa
+- aabbbaa -> bbbaa
+- baabbaaa -> baabbaaa
+- aaabbbbbabb -> bbbbbabb
+- babbabbaba -> babbabbaba
+- abbaabb -> aabb
+- bbabbab -> bbabbab
+- baabaabb -> baabaabb
+- aabbbaaa -> bbbaaa
+- bbbabbbaababa -> bbbabbbaababa
+- babbbababbabaa -> babbbababbabaa
+- aaabaabbaaab -> baabbaaab
+- aabaababbaa -> baababbaa
+- bbbaaaab -> bbbaaaab
+- abaabb -> aabb
+- babbaaaaa -> babbaaaaa
+- baaabbba -> baaabbba
+- bbaabbbbba -> bbaabbbbba
+- abbababaa -> ababaa
+- aaababab -> babab
+- bbbabbba -> bbbabbba
+- bbbaaabbb -> bbbaaabbb
+- abaaaaaa -> aaaaaa
+- bbababbb -> bbababbb
+- aabbaaaa -> bbaaaa
+- bbbabbaaab -> bbbabbaaab
+- bbabababb -> bbabababb
+- bbbbbbabaa -> bbbbbbabaa
+- bbbbababa -> bbbbababa
+- aabbbbaaaba -> bbbbaaaba
+- abbabaaaaabb -> abaaaaabb
+- bbbbbb -> bbbbbb
+- bbbabaaabba -> bbbabaaabba
+- aababaaabbaab -> babaaabbaab
+- bbabbbbaaabb -> bbabbbbaaabb
+- aababababab -> babababab
+- ababbaaaabbba -> abbaaaabbba
+- aaaaaaba -> ba
+- baaababbbaaa -> baaababbbaaa
+- abababbbbb -> ababbbbb
+- babbaabaaabbbb -> babbaabaaabbbb
+- abbbbbbaa -> aa
+- aabaaaaa -> baaaaa
+- babaabbbabb -> babaabbbabb
+- aabab -> bab
+- bbaabbabbb -> bbaabbabbb
+- aabaaaabaaa -> baaaabaaa
+- bbbbaabbbaa -> bbbbaabbbaa
+- aabababab -> bababab
+- babbabab -> babbabab
+- babbbb -> babbbb
+- baaaaaaabbbab -> baaaaaaabbbab
+- baaabbbbba -> baaabbbbba
+- abbbbaaa -> aaa

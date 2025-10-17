@@ -1,0 +1,12 @@
+{a}; A ;
+A <- a a A / a a a A / <e> ;
+---
+{a}; A !. / ! ;
+A <- a a a a a a a a A? / <e> ;
+---
+{a}; ( a a ) ( a a )* ;
+---
+{a}; A ;
+A <- a a A / <e> ;
+---
+{a}; a a (a a)* ;

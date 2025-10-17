@@ -1,0 +1,25 @@
+{n, p, m}; A !. ;
+A <- B (C B)* ;
+B <- n ;
+C <- p / m ;
+---
+{n, p, m}; A B / D ;
+A <- n ;
+B <- C A B / C ;
+C <- p / m ;
+D <- !. ;
+---
+{n, p, m}; A !. ;
+A <- B ((p / m) B)* ;
+B <- n / ( A ) ;
+---
+{n, p, m}; A B / <e> ;
+A <- n ;
+B <- C A B / <e> ;
+C <- p / m ;
+---
+{n, p, m}; A C / D ;
+A <- n B? ;
+B <- p / m ;
+C <- n B C / B n C / <e> ;
+D <- . / <e> ;

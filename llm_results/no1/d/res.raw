@@ -1,0 +1,30 @@
+3279 ms
+S -> Expr !.
+Expr -> Num (Op Num)*
+Num -> 'n'+
+Op -> '+' / '-'
+
+3047 ms
+S -> Expr End
+End -> !.
+Expr -> Num (Op Num)*
+Num -> 'n'+
+Op -> '+' / '-'
+
+1943 ms
+S -> Expr !.
+Expr -> Num (Op Num)*
+Num -> 'n'
+Op -> '+' / '-'
+
+2767 ms
+S -> Expr !.
+Expr -> Term (AddOp Term)*
+Term -> 'n'
+AddOp -> '+' / '-'
+
+1622 ms
+S -> Expr !.
+Expr -> Num (Op Num)*
+Num -> 'n'+
+Op -> '+' / '-'

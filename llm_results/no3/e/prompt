@@ -1,0 +1,44 @@
+# Instructions
+You are an expert in synthesizing attribute PEGs (Parsing Expression Grammars).
+
+Task:
+Synthesize a PEG that satisfies all the given examples.
+  - The example dataset is provided in the format:
+    - input -> output
+  - The input is always a string.
+  - The output is remaining part after parsing or parse failure represented as X.
+
+Requirements:
+  1. The PEG you produce must satisfy all input-output examples.
+  2. Please write a PEG that does not include any left-recursive rules.
+  3. Write only in PEG form (sequence of rules) in a code block without additional explanations including comments.
+  4. Write a PEG using the following syntax:
+    r ::= N -> e
+    e ::= ε | 't' | . | N | e* | e+ | e? | !e | &e | e / e | e e
+    - N   : a non-terminal symbol
+    - .   : any single character
+    - 't' : a single character
+    - e*  : zero or more repetitions of e
+    - e+  : one or more repetitions of e
+    - e?  : zero or one occurrence of e
+    - !e  : not-predicate (succeeds if e does not match)
+    - &e  : and-predicate (succeeds if e matches without consuming input)
+    - e1 / e2 : ordered choice (tries to match the e1, if it fails, tries the e2)
+    - e1 e2 : sequence (matches e1 followed by e2)
+
+## Examples
+- ε -> X
+- a -> X
+- aa -> ε
+- aaa -> X
+- aaaa -> ε
+- aaaaa -> X
+- aaaaaa -> X
+- aaaaaaa -> X
+- aaaaaaaa -> ε
+- aaaaaaaaa -> X
+- aaaaaaaaaa -> X
+- aaaaaaaaaaa -> X
+- aaaaaaaaaaaaa -> X
+- aaaaaaaaaaaaaaaa -> ε
+- aaaaaaaaaaaaaaaaa -> X

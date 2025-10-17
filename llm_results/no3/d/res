@@ -1,0 +1,31 @@
+
+1961 ms
+S -> P !.
+P -> 'a' 'a' / P P
+
+2013 ms
+r ::= S -> !(.) / P
+P ::= T 'a'
+T ::= 'a' T 'a' / ε
+
+1545 ms
+S -> P !.
+P -> 'a' 'a' !. / P P
+
+2242 ms
+r ::= S -> !(.) / P
+r ::= P -> 'a' 'a' / Q Q
+r ::= Q -> 'a' 'a' / R R
+r ::= R -> 'a' 'a' / S S
+
+3136 ms
+r ::= S -> !(.) / P
+P ::= Q Q
+Q ::= R R
+R ::= T T
+T ::= U U
+U ::= V V
+V ::= W W
+W ::= X X
+X ::= Y Y
+Y ::= 'a' / 'a' 'a'

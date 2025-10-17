@@ -1,0 +1,23 @@
+
+1429 ms
+S -> Balanced !.
+Balanced -> ε / '(' Balanced ')' Balanced
+
+1419 ms
+S -> Balanced !.
+Balanced -> Pair Balanced / ε
+Pair -> '(' Balanced ')'
+
+2454 ms
+S ::= Balanced -> ε
+Balanced ::= Pair*
+Pair ::= '(' Balanced ')'
+
+1742 ms
+S -> Balanced !.
+Balanced -> Pair*
+Pair -> '(' Balanced ')'
+
+1837 ms
+S ::= E -> E !.
+E ::= P -> '(' E ')' E / ε

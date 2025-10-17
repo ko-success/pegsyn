@@ -1,0 +1,31 @@
+
+1919 ms
+S -> C Rest
+Rest -> C Rest / ε
+C -> .
+
+1530 ms
+Start -> Any Any Any Any Any Any Any Any Any?
+Any -> .
+
+1914 ms
+S ::= Input -> Nine / Eight / Seven / Six / Five / Four / Three / Two / One / Zero
+Nine ::= . . . . . . . . . !.
+Eight ::= . . . . . . . . !.
+Seven ::= . . . . . . . !.
+Six ::= . . . . . . !.
+Five ::= . . . . . !.
+Four ::= . . . . !.
+Three ::= . . . !.
+Two ::= . . !.
+One ::= . !.
+Zero ::= !.
+Input ::= .
+
+1480 ms
+S -> N N N N N N N N N N
+N -> .
+
+1188 ms
+S ::= Start -> Char Char Char Char Char Char Char Char Char?
+Char ::= .

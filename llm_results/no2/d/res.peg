@@ -1,0 +1,19 @@
+{a, b}; A / B / <e> ;
+A <- a (b)* !b ;
+B <- a* !a ;
+---
+{a, b}; A / B / <e> ;
+AB <- a b b* ;
+B <- a a* ;
+---
+{a, b}; A / B ;
+A <- a b b b* / a a* ;
+B <- b* ;
+---
+{a, b}; ( a b b* / a a* )? A ;
+A <- . A / <e> ;
+---
+{a, b}; A ;
+A <- B / C / <e> ;
+B <- a (b b* / a*) A ;
+C <- b C / b ;

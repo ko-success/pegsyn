@@ -1,0 +1,30 @@
+- Name        : no10.|w|=9
+- Description : Parse until to 9 characters from the input.
+- Oracle      : {a, b, c}; A A A; A <- B B B; B <- .? ; // size = 5
+- Symbols     : a, b, c
+- Examples    :
+  -  ->
+  - a ->
+  - aa ->
+  - ab ->
+  - aba ->
+  - aabb ->
+  - aabbabbaa -> 
+  - aabbabbaab -> b
+  - aaaaaaaaaaa -> aa
+  - aaaaccbacaaa -> aaa
+  - b ->
+  - bb ->
+  - bba ->
+  - baa ->
+  - baaabaaab ->
+  - bbbbbbbbbb -> b
+  - bbbbbbbbbbb -> bb
+  - bbbbbbbbbbbb -> bbb
+  - bbbaababaabb -> abb
+  - c -> 
+  - cccc -> 
+  - caaccccc ->
+  - caaccccccc -> c
+  - caaccccabcc -> cc
+  - cababbcccabcc -> abcc

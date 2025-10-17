@@ -1,0 +1,20 @@
+- Name        : no2.ab+|a*
+- Description : Parse a maximal sequence of ‘a’, but if a ‘b’ appears after 'a', parse a maximal sequence of ‘b’ instead.
+- Oracle      : {a, b}; abb* / a*; // size = 5 ε
+- Symbols     : a, b
+- Examples    :
+  -  -> 
+  - a -> 
+  - aa -> 
+  - ab -> 
+  - abbb ->
+  - aaaaaaa -> 
+  - aba -> a
+  - aba -> a
+  - abb -> 
+  - aaaba -> ba
+  - aaaa -> 
+  - b -> b
+  - ba -> ba
+  - bb -> bb
+  - bbbb -> bbbb

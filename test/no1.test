@@ -1,0 +1,281 @@
+- Examples :
+-  -> 
+- n -> 
+- nn -> n
+- nnn -> nn
+- nmn -> 
+- nnp -> np
+- nnm -> nm
+- np -> p
+- npn -> 
+- npnpn -> 
+- nmnpnmn -> 
+- npp -> pp
+- npm -> pm
+- nm -> m
+- nmp -> mp
+- nmm -> mm
+- p -> X
+- pn -> X
+- pm -> X
+- m -> X
+- mn -> X
+- mp -> X
+- mpn -> X
+- mm -> X
+- nmnmn -> 
+- npnmn -> 
+- nmnpn -> 
+- nmnmnmn -> 
+- npnmnmn -> 
+- npnpnmn -> 
+- nmnmnpn -> 
+- npnmnpn -> 
+- nmnpnpn -> 
+- npnpnpn -> 
+- nmnmnmnmn -> 
+- npnmnmnmn -> 
+- nmnpnmnmn -> 
+- npnpnmnmn -> 
+- nmnmnpnmn -> 
+- npnmnpnmn -> 
+- nmnpnpnmn -> 
+- npnpnpnmn -> 
+- nmnmnmnpn -> 
+- npnmnmnpn -> 
+- nmnpnmnpn -> 
+- npnpnmnpn -> 
+- nmnmnpnpn -> 
+- npnmnpnpn -> 
+- nmnpnpnpn -> 
+- npnpnpnpn -> 
+- nmnmnmnmnmn -> 
+- npnmnmnmnmn -> 
+- nmnpnmnmnmn -> 
+- npnpnmnmnmn -> 
+- nmnmnpnmnmn -> 
+- npnmnpnmnmn -> 
+- nmnpnpnmnmn -> 
+- npnpnpnmnmn -> 
+- nmnmnmnpnmn -> 
+- npnmnmnpnmn -> 
+- nmnpnmnpnmn -> 
+- npnpnmnpnmn -> 
+- nmnmnpnpnmn -> 
+- npnmnpnpnmn -> 
+- nmnpnpnpnmn -> 
+- npnpnpnpnmn -> 
+- nmnmnmnmnpn -> 
+- npnmnmnmnpn -> 
+- nmnpnmnmnpn -> 
+- npnpnmnmnpn -> 
+- nmnmnpnmnpn -> 
+- npnmnpnmnpn -> 
+- nmnpnpnmnpn -> 
+- npnpnpnmnpn -> 
+- nmnmnmnpnpn -> 
+- npnmnmnpnpn -> 
+- nmnpnmnpnpn -> 
+- npnpnmnpnpn -> 
+- nmnmnpnpnpn -> 
+- npnmnpnpnpn -> 
+- nmnpnpnpnpn -> 
+- npnpnpnpnpn -> 
+- mppnmnnpnp -> X
+- pmnppnmpnmp -> X
+- ppnnmmmp -> X
+- pmnpnnn -> X
+- mnnp -> X
+- nnmnmmpmp -> nmnmmpmp
+- nmnmmmpmnmp -> mmmpmnmp
+- nmpppnpnp -> mpppnpnp
+- mnpmnnmppmnmnp -> X
+- npmpnpppnp -> pmpnpppnp
+- pnmnnmnnpnn -> X
+- mppnnmmppp -> X
+- npnmnmpnmn -> mpnmn
+- nnpmpmnpmpmpmn -> npmpmnpmpmpmn
+- mnpmpmpnm -> X
+- nnppnpnnmpmmm -> nppnpnnmpmmm
+- mpmnnnnnn -> X
+- nppppm -> ppppm
+- mpmnnnmmpmnn -> X
+- mmmnppmmp -> X
+- nmpnnpnpm -> mpnnpnpm
+- mmnmmpnmp -> X
+- mmppmpn -> X
+- pmmpnnpn -> X
+- nnmnmnmpmpmmpp -> nmnmnmpmpmmpp
+- nnmnmnpnn -> nmnmnpnn
+- pppppnmpmn -> X
+- mnnnnmn -> X
+- nnmmpmp -> nmmpmp
+- mpmmm -> X
+- mppmpnn -> X
+- npnpmpnmmp -> pmpnmmp
+- pmnpnmppnp -> X
+- mmpnmmn -> X
+- mpmpmnnnmmnp -> X
+- mmmnpnmppm -> X
+- pppnnmnmm -> X
+- pnmnnppmp -> X
+- nmmpmnppnp -> mmpmnppnp
+- ppmpmpnm -> X
+- mmpmnmm -> X
+- npnpmppnnpn -> pmppnnpn
+- pnnppmp -> X
+- mmmmnmpm -> X
+- mpnpmnmnpm -> X
+- nnmpmmpp -> nmpmmpp
+- mmnmp -> X
+- ppmpmmnnnm -> X
+- pppmmppmm -> X
+- ppmpnnpmmmp -> X
+- mnmpppp -> X
+- nmpnnppnp -> mpnnppnp
+- nppnpmp -> ppnpmp
+- pnmmnm -> X
+- npnpm -> pm
+- mnpnpmmmmmm -> X
+- pnpnmn -> X
+- mppnpmpn -> X
+- mmmnpnp -> X
+- pmpppnmmm -> X
+- pnmnnnnmn -> X
+- nnmnmpmn -> nmnmpmn
+- pmpmmnnpppmm -> X
+- pnnmnnnmppm -> X
+- mmmmn -> X
+- mmpmmppnmmnp -> X
+- pppnnmpn -> X
+- mpmppmpnpp -> X
+- mmpmpmnmnmpnpm -> X
+- mpp -> X
+- nnpppmmn -> npppmmn
+- nnpmnmn -> npmnmn
+- mmnpnmnnn -> X
+- mmppnmnnnmpp -> X
+- pnnmnmnn -> X
+- mpmpmnnp -> X
+- pnpmnnp -> X
+- mpnmpnn -> X
+- ppnmpnppmmm -> X
+- mmnmmn -> X
+- mppnmnnnpmn -> X
+- nmmp -> mmp
+- mpnnnmp -> X
+- mmnmmnn -> X
+- npnpnmnn -> n
+- pnnnn -> X
+- nppmpmmp -> ppmpmmp
+- pnmpmpn -> X
+- mppppppn -> X
+- ppnmmnpmmmnm -> X
+- nnmmpnnm -> nmmpnnm
+- mpnmnmmpnpppp -> X
+- pmnpnnnp -> X
+- npmnmnnmpnn -> pmnmnnmpnn
+- pmppnnp -> X
+- mmnnp -> X
+- pnnpnnmnpmn -> X
+- pnnpnpn -> X
+- ppmpmpmpp -> X
+- nnnpnppmnmnnpppnmn -> nnpnppmnmnnpppnmn
+- mmmpmnpppnmpn -> X
+- nnnpnpn -> nnpnpn
+- pmmmpmmmm -> X
+- nnnmnpnnn -> nnmnpnnn
+- mpnmnmmpmnnmn -> X
+- nmnpnmm -> mm
+- nmnmpppp -> mpppp
+- pnmmmnpmn -> X
+- nmppnmnp -> mppnmnp
+- pmnmpm -> X
+- nnnnmnnm -> nnnmnnm
+- pnpmpmnppp -> X
+- nmmmnpn -> mmmnpn
+- pmppmppnpmmn -> X
+- mnnppmpnn -> X
+- pnnpnmmp -> X
+- pnnmpnn -> X
+- nnpmnm -> npmnm
+- mnnmmpmmpp -> X
+- mnppp -> X
+- mpnpppmnnmn -> X
+- pmppmpnmpmm -> X
+- mmmmnpnpmnn -> X
+- pnmn -> X
+- mpmpmmpmp -> X
+- ppmnpn -> X
+- mmnnnmnnpnnp -> X
+- nnmnmpnm -> nmnmpnm
+- pppmmpppp -> X
+- pnmppmmpn -> X
+- nppnnnm -> ppnnnm
+- mmpmpnpn -> X
+- nmppmnnpp -> mppmnnpp
+- nnmpmnpm -> nmpmnpm
+- nnpmnmmmpm -> npmnmmmpm
+- nmnmm -> mm
+- mnmnmnmnp -> X
+- nmmnn -> mmnn
+- mnnnnpmpm -> X
+- pnmmmmnmnmn -> X
+- pnnpnmm -> X
+- ppmmpmmppmpn -> X
+- npmnppnn -> pmnppnn
+- mmppmmmm -> X
+- npmpnpmp -> pmpnpmp
+- nmpmnn -> mpmnn
+- ppnnmm -> X
+- nnnmnm -> nnmnm
+- pnmnpmmmpp -> X
+- mpmnmmmmm -> X
+- mpnpnnnmppp -> X
+- pmn -> X
+- mpmmmmmnnmnpm -> X
+- ppnpmnmpn -> X
+- nppmmmmpn -> ppmmmmpn
+- mmmmpppnnmm -> X
+- mmpmpmpp -> X
+- pnpppn -> X
+- pmnppnn -> X
+- mmpnnpmpp -> X
+- ppppnnpmpnnpnp -> X
+- npnmnmpnpp -> mpnpp
+- mppmpmnmpppp -> X
+- nnnnmnnpnpp -> nnnmnnpnpp
+- pppnnpmpp -> X
+- nmppnpp -> mppnpp
+- pmpnmm -> X
+- pnnppmnnmnmnm -> X
+- pmmmmpmmn -> X
+- pmnmpnmmn -> X
+- npnppnpmppnnpp -> ppnpmppnnpp
+- mpmnpmmmn -> X
+- nnnpmnpmp -> nnpmnpmp
+- pnpppnm -> X
+- pmpmmnmn -> X
+- pnnnpnmnn -> X
+- npppmmmpnmnpm -> pppmmmpnmnpm
+- pnnppnpnn -> X
+- nnnmnpn -> nnmnpn
+- nnmmnnpp -> nmmnnpp
+- mppnmppm -> X
+- nmnnnnnmnnpmn -> nnnnmnnpmn
+- mmmnpmp -> X
+- nppmmmp -> ppmmmp
+- pnpmnmppnm -> X
+- nnpppnpmnm -> npppnpmnm
+- mnnnppnmmn -> X
+- mnnmppp -> X
+- nnppnppnn -> nppnppnn
+- mnnnmnpmmmpn -> X
+- mmppnmmn -> X
+- mpnmnppmmpn -> X
+- nmmppmpp -> mmppmpp
+- npnnnmnn -> nnmnn
+- mpnppmnpn -> X
+- ppnppmpmnn -> X
+- pnmpm -> X
+- pnnnpm -> X

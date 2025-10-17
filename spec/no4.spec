@@ -1,0 +1,25 @@
+- Name        : no4.w-f-paren
+- Description : Check for well-formed parentheses.
+- Oracle      : {l, r}; A !.; A <- (l A r)*; // size = 5
+- Symbols     : l, r
+- Examples    :
+  -  -> 
+  - l -> X
+  - ll -> X
+  - lll -> X
+  - llr -> X
+  - lr -> 
+  - lrl -> X
+  - lrr -> X
+  - r -> X
+  - rl -> X
+  - rll -> X
+  - rlr -> X
+  - rr -> X
+  - rrl -> X
+  - rrr -> X
+  - lllrrr ->
+  - llrrlr ->
+  - lrlrlr ->
+  - lrrlrl -> X
+  - lrllrr ->

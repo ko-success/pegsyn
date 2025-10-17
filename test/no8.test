@@ -1,0 +1,274 @@
+- Examples : 
+- a -> X
+- aa -> X
+- aaaaa -> X
+- aab -> 
+- ab -> X
+- ababab -> 
+- abababaab -> 
+- b -> X
+- baaba -> X
+- bb -> X
+- bba -> 
+- bbbbaa -> 
+- bbbbbbbbb -> 
+- c -> X
+- ca -> X
+- caa -> 
+- cabaab -> 
+- cabaaabb -> X
+- cabaaabba -> 
+- cac -> 
+- cb -> X
+- cba -> 
+- cca -> 
+- cccc -> X
+- bbcaabccb -> 
+- caabbaacacbcabb -> 
+- abbcbc -> 
+- cbcaac -> 
+- aaaaaa -> 
+- aabccc -> 
+- baacaa -> 
+- ccbacaaabcbc -> 
+- acaaabccb -> 
+- cbbaaa -> 
+- aaa -> 
+- bbbbac -> 
+- cbacbccbb -> 
+- abbacabca -> 
+- cccbbbcaa -> 
+- babcabaaa -> 
+- cccbba -> 
+- acaccb -> 
+- accaabcbb -> 
+- bbbccbcba -> 
+- cacbca -> 
+- cacaaccca -> 
+- bbcaccbaa -> 
+- acaaaa -> 
+- babccacbacbb -> 
+- bbc -> 
+- abaaccabc -> 
+- ccaacb -> 
+- ccaaca -> 
+- aaaaababb ->
+- bccacacbc -> 
+- caacbbabb -> 
+- caaacabab -> 
+- aaaacc -> 
+- accaaccac -> 
+- bcaacacac -> 
+- bcaccc -> 
+- babcbcbab -> 
+- aba -> 
+- baabcc -> 
+- bbaabacca -> 
+- babcbb -> 
+- cbbcbc -> 
+- cccababbbbaa -> 
+- bbbccaaaa -> 
+- bcacac -> 
+- acbbbbaca -> 
+- acabca -> 
+- aacaaaabc -> 
+- bbbbaaacbccb -> 
+- cabcab -> 
+- cbc -> 
+- ccabccabcbbb -> 
+- caacab -> 
+- babaabaaacccbbbcabcaabbccbbabb -> 
+- acaccacaabcaaaaccbaaabba -> 
+- ccbcaaaaaabcbccbaccbccccacb -> 
+- abcbcbbaabacbbbabbcaabbbabacbbcaa -> 
+- babcaccaccbcabacbacbbccacabbabcac -> 
+- ccbaabacacaaabbababbccbb -> 
+- cccaacbbabcbbaabbcaaabcb -> 
+- bcaacbcacbcacbaacaabbabcbccbabbcb -> 
+- bbabbbbacccabbaacbcbbcaaacccaccca -> 
+- abbbaabacbaaabccacbcbcbccaacca -> 
+- aaacbbcccabaccababaabacabab -> 
+- bcbacacaabacabbbbcabbababbbabb -> 
+- ccaacaccabcacbcabcbbbacc -> 
+- cbaabbccaabcbaccbc -> 
+- accabcaaccbabbabcccbccbbcbb -> 
+- cbcbacabcbbbbaccabacaccbcccacc -> 
+- baacabacabbcaaaacbaacacbbac -> 
+- cbabccbbcbccaababccbacaabac -> 
+- bbacaaabbcabacabbccacabbbabcac -> 
+- bcabaacacaccbaabccaacbba -> 
+- bcccbcbabbbcbccbccabbccacaabbcaca -> 
+- cabb -> X
+- cabccacba -> 
+- baacabbab -> 
+- aabaaacab -> 
+- babbabbcac -> X
+- bbaacabca -> 
+- bbbaacbabcba -> 
+- accbbcabababc -> X
+- cacccacba -> 
+- cabaaab -> X
+- aacaaaccca -> X
+- bcacbccc -> X
+- acacaabc -> X
+- caccabbcca -> X
+- acacbbcccb -> X
+- bac -> 
+- cbbcaacbcb -> X
+- aaabcbccc -> 
+- cbababa -> X
+- babaaaaac -> 
+- cabaccbbcab -> X
+- bbbbbbbaab -> X
+- babcaacaccaba -> X
+- ccabaccbca -> X
+- bcabbacbcc -> X
+- caababb -> X
+- aaabacbcb -> 
+- bbabcccabcbba -> X
+- bcaacba -> X
+- cbaabaaca -> 
+- accaacaaccc -> X
+- ccaacbcbaa -> X
+- acaccaa -> X
+- cbabcccb -> X
+- ccabcccb -> X
+- bbcaaac -> X
+- abcbbcbaabab -> 
+- bbbbcaaca -> 
+- bbcabbcacc -> X
+- aabaabaa -> X
+- bbaaaccacc -> X
+- bacbbc -> 
+- accaccbbcb -> X
+- ccbbccbacb -> X
+- accbbcccbb -> X
+- bcaaccbcc -> 
+- ccbc -> X
+- cbbbbcb -> X
+- acaacacbabbbccbacaacaabbaccbcbb -> X
+- cbcbaaacacbabbabaaccbbcabacaab -> 
+- baabbaacacbcacababbcaaaacbbccca -> X
+- cccababababaababbbaccbcacbbaccbacaccc -> X
+- bbacbbacbcaaccacccbcbbaacbbcbbcbcc -> X
+- ccbaccbaaaaaccabbcbcbbbaacc -> 
+- aabacccbcbaaccbbaaccbcccccacbaaaacaa -> 
+- aacccaababbabbacccbbbbaabcaba -> X
+- babbbcbbacbccbcaabbbbabbcac -> 
+- cbbcbaccccccaccbbabbbacaccbabbcbcacb -> 
+- cabcaccbbaaacababbcbcabbcabbaacb -> X
+- abacccccababaaaaccabccacbbabccb -> X
+- ccccccbbbababacaaabcccbabaaac -> X
+- babcacbabaaacaacbccbabbaab -> X
+- bcbcbcabbacccbbaabccacbccaaabacbb -> 
+- abbccbbacbaccbbcbcbcaaccccccccbab -> 
+- bbbcbacabbbccacbacaccbac -> 
+- ccaacaacaccbaababcbbaacaaba -> 
+- caaacaabcccaccabbabaaccaccaa -> X
+- acaaaaacccacccaccccccbacb -> X
+- aaabaacbabaacbcccbccacbbbbbabcbcaaa -> X
+- babcabaabbaabbaaabcccbaaccb -> 
+- bbbccababcaabcaaabacacbabcccbc -> 
+- acaabaaccbaacccbccabaacaa -> X
+- cccacabbabbbcababbbbbaacacaabbc -> X
+- cbcccbaacbbabababcababcababb -> X
+- aabcaabcbabbbcbaabbcaacbaaaccbcbaac -> X
+- accbcbabacbccccbacbcaaaaccbcc -> X
+- aaacacccabaaacbbabcbbccbacaac -> X
+- bccabbabaccabcaababccbcacbcbcabc -> X
+- aaaacaabaaabacacaccbaabacbbccaaaab -> X
+- bbcabbccacbbbabcbbbcaababacbca -> 
+- ccaaacbcccabccccbabbaaaacabb -> X
+- bbccacbbcaacbabaacccbabac -> X
+- abcaaaabbbabaaaaababaababaccacacbca -> X
+- aaaccccbccbabcacbaacababbcaababbcbb -> X
+- cbbcabaccacccbaabaabaacacc -> X
+- baaaabaacabcccacaacaccabbccbacaca -> 
+- aaacbabacacbcacacabaac -> X
+- cbabcabbababaaaaabacbaaabcacacaa -> X
+- cacababcccacabcabaabccc -> X
+- acaabaacbcabaccbcccabcaaabb -> 
+- ccbabcbccabbbccacbcacacba -> X
+- bbbbbccbabbabbcbaaabccbccbb -> 
+- accbcaccbbccaabbbbaccbccaabac -> X
+- ccaaaacccbccbaabaabaabcaaaacbaa -> X
+- caccbbcbbcccaababaabbbbccccbbaaacabbaaa -> 
+- baaababbbbbbccbabcbaaccbbccbcabcc -> 
+- abaaabcbacbabccabbabcacabcbc -> X
+- bccabbbaabacaccababbcbacbaccbccc -> X
+- cbbcacbaabcbbcabaccaabbbbcabaab -> X
+- cccbbacaacaccbbcababaabbbcabacacc -> 
+- bbababbaaaccbccabccccc -> X
+- accbbcccabcccabcbbcbcbbcabcaba -> 
+- bcccacbbbacaaabbabcccbaaaccc -> X
+- caaacccacbccacccbbcbccacbaabacaabbaa -> 
+- bccccacaacbccaaababccbaabbcaac -> 
+- bccbbccbbbaccbbbacbbac -> X
+- acccbbbaacbaabbbaabcccccbbbccba -> X
+- ccbabbcbbbaabcbacaaccaccaabba -> X
+- babcbcaabaaccbcaaababacbabcccacaac -> X
+- bbaaacabbaccacbaaabbbacaac -> X
+- ccbbababaabacccbcacaaabcaac -> 
+- bbabaabbaacaaaaababbbabbbcaacb -> 
+- bbbbccccbaacbbacaaaacccaccabaccaaaba -> 
+- caaabbbcbbbaaccccaaababaccacabacacac -> 
+- abbacccacaccaacacbaabbbcbca -> 
+- bbcacbbbcacbccbaabacbab -> X
+- aababaccaabbacaaaaabbbbabaabbacb -> X
+- cbacccabbcaabaacaccabcbbccc -> 
+- bcbbccbcbabccbbcabcccbcaacacabccbaba -> 
+- aacaaabcbcaabcaacbcacabcaaccb -> X
+- bbcbbcaccbcccbbababbbacbbabbb -> X
+- cccbbbaaaabbbbbcacccccaccbbacccacc -> X
+- cccbbabbbaababccbcbaccbcbabccaba -> X
+- acacbacccaacaaaaacacccbcbbcacb -> 
+- babaaccabbcccabbacacaabbabcacba -> X
+- bcaacaabbcbbaabaaabcaacbaabbb -> X
+- baaccacbcbccbcccacaacabbbcbcbb -> 
+- cabaaaaaabbcaaaaaccabccacb -> X
+- bacaaccbbcaabbccccbaacbccacbab -> 
+- bcbbacabbcabccbbbabcccbacaaabaabbaccc -> X
+- bcbcbcccccacbbacbaabbccaacbb -> X
+- ccaabacaabcbaabcaacccacbbaca -> X
+- baccababcabaaabcbaaacbabbaabaca -> X
+- babaabccbcbabbaacbbcbacbcbccbacccbacbaa -> 
+- bcbaccaaaaabbacaccbcccbabbbcbcbaccabb -> X
+- cabbacbcbcbaccbcccabaaabaacaacb -> X
+- ccbaabbabccbacccaabacaabaabbbcbabbc -> X
+- accabcbbcaacccbaccbaacccabacc -> X
+- ccccabcaaacccacccabbbabcabbabbcbaca -> X
+- aabcbcabbcaacaabcaacccccaabca -> X
+- bcacaacbabbbbacabbcaccbcbaccaacaaabcbac -> 
+- ababababcbaccaaaaccabb -> X
+- caaaccbacbabcacababababcaccb -> X
+- bbaabaaacacbbccbcaaccccab -> X
+- acbcacaccabbcbbbbbcccabcacc -> 
+- abccbaacaabbcbcaababbaaabbacb -> X
+- caabacbbcccaaccbaac -> X
+- aaaaccbbaabbcbcacaccaaaba -> X
+- abcaaccacbccbbacbacacbba -> 
+- ccacccbcbaacacaabbcbaccbba -> X
+- aaacbccabbacbcabbaccbbc -> X
+- bcbbaaaacccbbbcaabbaaccbbbcc -> X
+- bcbcbbaababcabbbcaccbbcca -> X
+- babacacaccaaacbbbbaccbbcabcaba -> 
+- baabccccacacaaccaacabcbaabaabccbcac -> X
+- ccccbbabbaaababcaababacbcbbcabcba -> 
+- ababcbccccbabbccaccaabcbcbacabc -> X
+- aacaaabcbbabcaacbcbcaba -> X
+- bbacabbbcccbbbaccccbcb -> X
+- bcaabcacacabacbcbbcababcabab -> X
+- bccccacbabcabacacccccbbbacaa -> X
+- aabcbcacbacbbaabbbbbaccbccaaaa -> 
+- baccbacabcbabcbbbcbbcacbabaacccbaabbaca -> 
+- acbccacbbcbcabaacaaccabaacaba -> X
+- bacbcaccbcacccaccbaacaabbabcbbabb -> 
+- ccccacabbaccaaababccb -> 
+- abcbbbbcbbcbcaababbbaccb -> 
+- cacacbaaaabbacababccbabacaccbccbba -> X
+- caccbbbcccccbbcacbabaacab -> X
+- abcacacacbbaacbbacccccbcabb -> 
+- acbacabbabbcbcaccaaabbcbc -> X
+- ccbcacccccaaccaaaabbabbbbacca -> X
+- aaccbacbcabcbccaccbabaca -> 
+- baaacbbbabccbccbccabbbababbc -> X

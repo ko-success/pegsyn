@@ -1,0 +1,448 @@
+- Examples : 
+-  -> 
+- l -> X
+- ll -> X
+- lll -> X
+- llr -> X
+- lr -> 
+- lrl -> X
+- lrr -> X
+- r -> X
+- rl -> X
+- rll -> X
+- rlr -> X
+- rr -> X
+- rrl -> X
+- rrr -> X
+- lllrrr -> 
+- llrrlr -> 
+- lrlrlr -> 
+- lrrlrl -> X
+- lrllrr -> 
+- llrr -> 
+- lrlr -> 
+- llrlrr -> 
+- llllrrrr -> 
+- lllrlrrr -> 
+- lllrrlrr -> 
+- lllrrrlr -> 
+- llrllrrr -> 
+- llrlrlrr -> 
+- llrlrrlr -> 
+- llrrllrr -> 
+- llrrlrlr -> 
+- lrlllrrr -> 
+- lrllrlrr -> 
+- lrllrrlr -> 
+- lrlrllrr -> 
+- lrlrlrlr -> 
+- lllllrrrrr -> 
+- llllrlrrrr -> 
+- llllrrlrrr -> 
+- llllrrrlrr -> 
+- llllrrrrlr -> 
+- lllrllrrrr -> 
+- lllrlrlrrr -> 
+- lllrlrrlrr -> 
+- lllrlrrrlr -> 
+- lllrrllrrr -> 
+- lllrrlrlrr -> 
+- lllrrlrrlr -> 
+- lllrrrllrr -> 
+- lllrrrlrlr -> 
+- llrlllrrrr -> 
+- llrllrlrrr -> 
+- llrllrrlrr -> 
+- llrllrrrlr -> 
+- llrlrllrrr -> 
+- llrlrlrlrr -> 
+- llrlrlrrlr -> 
+- llrlrrllrr -> 
+- llrlrrlrlr -> 
+- llrrlllrrr -> 
+- llrrllrlrr -> 
+- llrrllrrlr -> 
+- llrrlrllrr -> 
+- llrrlrlrlr -> 
+- lrllllrrrr -> 
+- lrlllrlrrr -> 
+- lrlllrrlrr -> 
+- lrlllrrrlr -> 
+- lrllrllrrr -> 
+- lrllrlrlrr -> 
+- lrllrlrrlr -> 
+- lrllrrllrr -> 
+- lrllrrlrlr -> 
+- lrlrlllrrr -> 
+- lrlrllrlrr -> 
+- lrlrllrrlr -> 
+- lrlrlrllrr -> 
+- lrlrlrlrlr -> 
+- llllllrrrrrr -> 
+- lllllrlrrrrr -> 
+- lllllrrlrrrr -> 
+- lllllrrrlrrr -> 
+- lllllrrrrlrr -> 
+- lllllrrrrrlr -> 
+- llllrllrrrrr -> 
+- llllrlrlrrrr -> 
+- llllrlrrlrrr -> 
+- llllrlrrrlrr -> 
+- llllrlrrrrlr -> 
+- llllrrllrrrr -> 
+- llllrrlrlrrr -> 
+- llllrrlrrlrr -> 
+- llllrrlrrrlr -> 
+- llllrrrllrrr -> 
+- llllrrrlrlrr -> 
+- llllrrrlrrlr -> 
+- llllrrrrllrr -> 
+- llllrrrrlrlr -> 
+- lllrlllrrrrr -> 
+- lllrllrlrrrr -> 
+- lllrllrrlrrr -> 
+- lllrllrrrlrr -> 
+- lllrllrrrrlr -> 
+- lllrlrllrrrr -> 
+- lllrlrlrlrrr -> 
+- lllrlrlrrlrr -> 
+- lllrlrlrrrlr -> 
+- lllrlrrllrrr -> 
+- lllrlrrlrlrr -> 
+- lllrlrrlrrlr -> 
+- lllrlrrrllrr -> 
+- lllrlrrrlrlr -> 
+- lllrrlllrrrr -> 
+- lllrrllrlrrr -> 
+- lllrrllrrlrr -> 
+- lllrrllrrrlr -> 
+- lllrrlrllrrr -> 
+- lllrrlrlrlrr -> 
+- lllrrlrlrrlr -> 
+- lllrrlrrllrr -> 
+- lllrrlrrlrlr -> 
+- lllrrrlllrrr -> 
+- lllrrrllrlrr -> 
+- lllrrrllrrlr -> 
+- lllrrrlrllrr -> 
+- lllrrrlrlrlr -> 
+- llrllllrrrrr -> 
+- llrlllrlrrrr -> 
+- llrlllrrlrrr -> 
+- llrlllrrrlrr -> 
+- llrlllrrrrlr -> 
+- llrllrllrrrr -> 
+- llrllrlrlrrr -> 
+- llrllrlrrlrr -> 
+- llrllrlrrrlr -> 
+- llrllrrllrrr -> 
+- llrllrrlrlrr -> 
+- llrllrrlrrlr -> 
+- llrllrrrllrr -> 
+- llrllrrrlrlr -> 
+- llrlrlllrrrr -> 
+- llrlrllrlrrr -> 
+- llrlrllrrlrr -> 
+- llrlrllrrrlr -> 
+- llrlrlrllrrr -> 
+- llrlrlrlrlrr -> 
+- llrlrlrlrrlr -> 
+- llrlrlrrllrr -> 
+- llrlrlrrlrlr -> 
+- llrlrrlllrrr -> 
+- llrlrrllrlrr -> 
+- llrlrrllrrlr -> 
+- llrlrrlrllrr -> 
+- llrlrrlrlrlr -> 
+- llrrllllrrrr -> 
+- llrrlllrlrrr -> 
+- llrrlllrrlrr -> 
+- llrrlllrrrlr -> 
+- llrrllrllrrr -> 
+- llrrllrlrlrr -> 
+- llrrllrlrrlr -> 
+- llrrllrrllrr -> 
+- llrrllrrlrlr -> 
+- llrrlrlllrrr -> 
+- llrrlrllrlrr -> 
+- llrrlrllrrlr -> 
+- llrrlrlrllrr -> 
+- llrrlrlrlrlr -> 
+- lrlllllrrrrr -> 
+- lrllllrlrrrr -> 
+- lrllllrrlrrr -> 
+- lrllllrrrlrr -> 
+- lrllllrrrrlr -> 
+- lrlllrllrrrr -> 
+- lrlllrlrlrrr -> 
+- lrlllrlrrlrr -> 
+- lrlllrlrrrlr -> 
+- lrlllrrllrrr -> 
+- lrlllrrlrlrr -> 
+- lrlllrrlrrlr -> 
+- lrlllrrrllrr -> 
+- lrlllrrrlrlr -> 
+- lrllrlllrrrr -> 
+- lrllrllrlrrr -> 
+- lrllrllrrlrr -> 
+- lrllrllrrrlr -> 
+- lrllrlrllrrr -> 
+- lrllrlrlrlrr -> 
+- lrllrlrlrrlr -> 
+- lrllrlrrllrr -> 
+- lrllrlrrlrlr -> 
+- lrllrrlllrrr -> 
+- lrllrrllrlrr -> 
+- lrllrrllrrlr -> 
+- lrllrrlrllrr -> 
+- lrllrrlrlrlr -> 
+- lrlrllllrrrr -> 
+- lrlrlllrlrrr -> 
+- lrlrlllrrlrr -> 
+- lrlrlllrrrlr -> 
+- lrlrllrllrrr -> 
+- lrlrllrlrlrr -> 
+- lrlrllrlrrlr -> 
+- lrlrllrrllrr -> 
+- lrlrllrrlrlr -> 
+- lrlrlrlllrrr -> 
+- lrlrlrllrlrr -> 
+- lrlrlrllrrlr -> 
+- lrlrlrlrllrr -> 
+- lrlrlrlrlrlr -> 
+- rlrr -> X
+- rrll -> X
+- rllr -> X
+- lllrrrr -> X
+- lrll -> X
+- rrrl -> X
+- lrlll -> X
+- lrrl -> X
+- rrlr -> X
+- lllr -> X
+- llrl -> X
+- rlll -> X
+- lrrll -> X
+- rrrlrr -> X
+- lrrrr -> X
+- rrrr -> X
+- rrlllr -> X
+- lllll -> X
+- llrlr -> X
+- lrrr -> X
+- rlrll -> X
+- rrrrr -> X
+- llll -> X
+- rlllr -> X
+- rlrlr -> X
+- llrrl -> X
+- rlrl -> X
+- rrlrl -> X
+- llllll -> X
+- rlrrll -> X
+- lrlrr -> X
+- llrll -> X
+- lrlrlrr -> X
+- llrlll -> X
+- rllrrr -> X
+- lrlrl -> X
+- rrlll -> X
+- lrrrrrr -> X
+- rlrrrr -> X
+- rlrlrlrr -> X
+- rlrrrrlllrllll -> X
+- rrrrrrlrlllrllrrlrl -> X
+- lrlllrrllrrrllrrllrr -> 
+- llrllrllllrrrllr -> X
+- lrrrrrrllrllll -> X
+- rllllrllrlllrr -> X
+- lrllrrrrr -> X
+- rlrlrrlrllrrrlr -> X
+- lrlllrrlrrrrlrrlll -> X
+- lrlrrlllrlrlllrll -> X
+- rrrllrrrlllllrlllr -> X
+- lrrlrllrllrrlrl -> X
+- lllrlllllllrrllllrr -> X
+- llrllllllrl -> X
+- rrrrrrllllrrrlrlrllrlllll -> X
+- lrllrrrlrrllrlll -> X
+- lrrllllrl -> X
+- llrlllrlrlrlrll -> X
+- rrrrrllrrlllllrl -> X
+- llrrllrlllr -> X
+- rrrrlllllrlllllrlr -> X
+- rrrrllrllllr -> X
+- rrrllrrrrlrrlrlr -> X
+- lllrllllrrrlllrrr -> X
+- llrrrlllrllrlrrrl -> X
+- rlrlllrrlrrlllllrrrl -> X
+- rrrllrllllllllrrrlrrr -> X
+- rlrrlrlrrrlllr -> X
+- lrrrlrlrrlrrlrlllrllrl -> X
+- rlrrrrrllrrrll -> X
+- rrrllrlrrlllrlr -> X
+- lrlllrrrrrrllrl -> X
+- llrrlllrlrrrlll -> X
+- lllrrllrrrllrrl -> X
+- llrrllllllrrr -> X
+- lrlrlrlrrllrl -> X
+- rllrllllrrrrrlrl -> X
+- rrlrrllrrlrrrlrl -> X
+- rrrllrrrrrlrllrlrlr -> X
+- rrlrlllllrrrr -> X
+- lrrrllrrrrrrrlr -> X
+- rlllrlllrrrllllr -> X
+- lllrrlrrrrrrl -> X
+- llrrlrllrlrllllll -> X
+- rrrrlrlrrlrrl -> X
+- rlrrlllrllllllrrr -> X
+- rrrllrlrlrlrrrlrr -> X
+- llrrllrlrrrrr -> X
+- rlrllrlrrrrllrllrrll -> X
+- lrllrllrrlllll -> X
+- lrrrrlrlr -> X
+- rllrrrrlllr -> X
+- rlllllrrrllrllr -> X
+- rllrlllllrllrrrrlrl -> X
+- rrllrrllllrrrll -> X
+- rrrlllrlllrlrr -> X
+- rrrrlrrrlrlrllllrlrr -> X
+- rlrrlllrllrlllrr -> X
+- rlrllrlrlllllrrll -> X
+- lllllrrllrrrlrrrr -> X
+- rllrllrrrrrllrrlrrlrll -> X
+- rlrlrrrlllrlllrrrrllll -> X
+- rllrllllrlllllrll -> X
+- rrrlrrrrrrrllrrrrrr -> X
+- lrrrlrrllllrlrrlrrr -> X
+- lllrllrrrl -> X
+- lrrrrrlllllllllrrl -> X
+- llrlrrlrrlr -> X
+- rrlrllrrrllrllrlrrrll -> X
+- rllllllrlllr -> X
+- rlrrllrrrlrrrlrl -> X
+- rrrrrlrlrll -> X
+- rllrrrlrrll -> X
+- llrrlllllrrlrrll -> X
+- llrrrrllrllrll -> X
+- lrllrlrlllllrrl -> X
+- lrlllllrrrrrrlrllrrr -> X
+- rlrllllrllrllrlllr -> X
+- rrlrrlrlllll -> X
+- rrlllrrrlrl -> X
+- llrllrlrlllrrll -> X
+- rrrrlrlll -> X
+- lrrllllrrrrlrl -> X
+- lrrlllrrlrrr -> X
+- rrlrrlrrrrllrll -> X
+- lrrllllrrlrl -> X
+- rrrlrrrlrlrlrrrrlrlr -> X
+- rlllllllllrlllrrrl -> X
+- lllrlrrllllrlrrl -> X
+- llrrllrllllll -> X
+- rllllllrlrrlrll -> X
+- rlrrrlrrlrrrrrlr -> X
+- rrrlrlrrrlrllrlrl -> X
+- rrlllllrrrllllll -> X
+- rrlrrrrlllrrrrr -> X
+- rrlrlrlrrr -> X
+- lrllllrlrrrrlrlllrr -> X
+- rllrrlrrrllrlllrllrllrl -> X
+- lrrrrlrrrrrlrrllrr -> X
+- lrrrllllrlrllrl -> X
+- lrlrllllrrrrllr -> X
+- rrllrlrlllrrlrr -> X
+- rrrrrlrrll -> X
+- rlrrllllrrlllll -> X
+- lrlrlrllrrl -> X
+- rrlllrrllrllr -> X
+- lrrllrrlrllrlrlrr -> X
+- rrrrrrlrrrrrrl -> X
+- rrrlrlrrlllrrll -> X
+- rlllrllrrlrll -> X
+- rrlrlllrrllrrlr -> X
+- lrrlrrrrllrlrlrlrrr -> X
+- llllllrrr -> X
+- rrrllrlrrll -> X
+- llrrrrlrrrllrr -> X
+- llrllrlrr -> X
+- lrlrrllrrrl -> X
+- rrlrrrrllrrlrll -> X
+- rlrrllllrrl -> X
+- rrrlrrlrrlllrlrr -> X
+- rrrlllrrrlrrrllrl -> X
+- rllrrlrrrllrllrlrllr -> X
+- rrrrllrrllrlrlll -> X
+- lrlrlrllrrlrr -> X
+- lrrlrrrllrrrllllrl -> X
+- llllrlrlrlrllll -> X
+- llrrlrlrlrlrrlrllrlll -> X
+- rrrrlrlllrr -> X
+- llrlrllrlllr -> X
+- lllllrrrr -> X
+- lrlrrlrllrrlrrl -> X
+- llrlrlrlrrlrrrl -> X
+- rlllllllrr -> X
+- lrrrrlrlllrr -> X
+- lrrrlrlrllr -> X
+- lrrllrlrlrlrrlrll -> X
+- rrrrlrrlrlllrllrlllr -> X
+- rrlrrlrrllrllr -> X
+- lrlllrlllrlrrr -> X
+- rlllllrrrlrrrr -> X
+- lrrrrrlrrlrrrl -> X
+- rrrrlrlllrlrrrr -> X
+- rllrllllrlr -> X
+- lrlllrrrllrrllllr -> X
+- lrllrllllllrrrl -> X
+- llrllrrlrllll -> X
+- rrlllllrlllllrrlrllrr -> X
+- rrrllllrlrllrr -> X
+- lrrrrrrlrl -> X
+- llrrlllr -> X
+- lrrrlrrlrlrrrrl -> X
+- rllrrllllrlrlrrr -> X
+- lrlrrrrllrlrrlrll -> X
+- llrlllrrlrrllllr -> X
+- llrlrrrllrlrrll -> X
+- llllrrlllrrlrl -> X
+- rrlllrrrrrrllrrrrllrll -> X
+- lrlrrllrlrrlrrrl -> X
+- rrllllllrlr -> X
+- llrrrllllrrllllrlr -> X
+- rlrrrrlrrlrlrlr -> X
+- rllrrrlllr -> X
+- llrrrllrllrlrrllrl -> X
+- lrlrlrllrllrr -> X
+- rlrrrrllrrrlr -> X
+- rlrrlrlrrlllrr -> X
+- lllrrlrllrrlrrl -> X
+- llllrlllrllrrlll -> X
+- rlllrrrrrlllrlr -> X
+- llrrlrrrlrrrl -> X
+- llllrlrrlrlrrlr -> X
+- rlrlrrrrrrrl -> X
+- lrrrrrrlrllrl -> X
+- rrlrrrrrrrrrllr -> X
+- lrlrrlrlrrrl -> X
+- lllllllllrll -> X
+- rlrrlrllrlllllllrrl -> X
+- rllrrllllrrrlrrlrl -> X
+- rrllrllrlrlllrlrrrllr -> X
+- lrrrrlrlllllrl -> X
+- rrllrrlrlrlllrr -> X
+- rrrlrlllrrrl -> X
+- rrrrllrrrlrrrrrlrllr -> X
+- lrlrllrllllrrrlllrrl -> X
+- llllrrlllllrrllrr -> X
+- llrlrllrlrrrrlrr -> X
+- rlrrrlrllllllrr -> X
+- lllllllllllrllrlllllll -> X
+- lllllllllrllrrlllr -> X
+- rlrrrrllrllrll -> X
+- lllllrrrrlr -> X
+- lrlrllrrlrllrlll -> X
+- rlllrrlrrllrrllrl -> X
+- llrrlrlllrlllllrrlr -> X
+- lrlrlrl -> X
+- rrlrrlllllllllllr -> X

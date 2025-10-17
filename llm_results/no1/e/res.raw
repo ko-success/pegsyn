@@ -1,0 +1,30 @@
+3602 ms
+S ::= Expr !.
+Expr ::= Num (Op Num)*
+Num ::= 'n'
+Op ::= '+' / '-'
+
+2784 ms
+S -> Num OpTail / X
+Num -> 'n'
+OpTail -> Op Num OpTail / Op
+Op -> '+' / '-'
+X -> !.
+
+3892 ms
+S ::= Expr !.
+Expr ::= Term (('+' / '-') Term)*
+Term ::= 'n' / '(' Expr ')'
+
+1943 ms
+S ::= N -> N Suffix / ε
+Suffix ::= Op N Suffix / ε
+Op ::= '+' / '-'
+N ::= 'n'
+
+2787 ms
+S ::= Start -> Term Tail / Fail
+r ::= Fail -> . / ε
+r ::= Term -> 'n' Op?
+r ::= Op -> '+' / '-'
+r ::= Tail -> 'n' Op Tail / Op 'n' Tail / ε

@@ -1,0 +1,25 @@
+- Name        : no7.!(abc).*
+- Description : Parse all string if the prefix is not exactly "abc".
+- Oracle      : {a, b, c}; !(abc) .* ; // size = 5
+- Symbols     : a, b, c
+- Examples    :
+  - -> 
+  - a -> 
+  - ab -> 
+  - aba -> 
+  - abc -> X
+  - abca -> X
+  - abcbb -> X
+  - ac -> 
+  - aca -> 
+  - acccc -> 
+  - b -> 
+  - ba -> 
+  - bbc -> 
+  - bc -> 
+  - bcc -> 
+  - c -> 
+  - ca -> 
+  - cb -> 
+  - cca -> 
+  - cacb -> 

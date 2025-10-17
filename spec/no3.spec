@@ -1,0 +1,20 @@
+- Name        : no3.a^2^n // n > 0 
+- Description : Accept strings in the L = {a^2^n | n > 0}.
+- Oracle      : {a}; A !a; A<- a(Aa / a);// size = 6
+- Symbols     : a
+- Examples    :
+  -  -> X
+  - a -> X
+  - aa -> 
+  - aaa -> X
+  - aaaa -> 
+  - aaaaa -> X
+  - aaaaaa -> X
+  - aaaaaaa -> X
+  - aaaaaaaa -> 
+  - aaaaaaaaa -> X
+  - aaaaaaaaaa -> X
+  - aaaaaaaaaaa -> X
+  - aaaaaaaaaaaaa -> X
+  - aaaaaaaaaaaaaaaa -> 
+  - aaaaaaaaaaaaaaaaa -> X

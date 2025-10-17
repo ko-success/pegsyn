@@ -1,0 +1,20 @@
+
+2403 ms
+S -> Balanced !.
+Balanced -> '('*')' Balanced / '('*')' / ε
+
+1324 ms
+S -> Balanced* !.
+Balanced -> '(' Balanced* ')'
+
+1882 ms
+S -> Balanced !.
+Balanced -> '(' Balanced ')' Balanced / ε
+
+1780 ms
+S -> Balanced !.
+Balanced -> '(' Balanced ')' Balanced / ε
+
+1312 ms
+S -> Balanced !.
+Balanced -> ε / '(' Balanced ')' Balanced

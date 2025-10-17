@@ -1,0 +1,23 @@
+2950 ms
+S -> A / B / ε
+A -> 'a' ('b')* !'b'
+B -> 'a'* !'a'
+
+3299 ms
+S -> AB / A / ε
+AB -> 'a' 'b'+
+A -> 'a'+
+
+3951 ms
+S -> A / B
+A -> 'a' 'b' 'b'+ / 'a'+
+B -> 'b'*
+
+2458 ms
+S ::= S -> ( 'a' 'b' 'b'* / 'a'+ )? Rest
+Rest ::= Rest -> . Rest / ε
+
+3275 ms
+S -> A / B / ε
+A -> 'a' ('b'+ / 'a'*) S
+B -> 'b' B / 'b'

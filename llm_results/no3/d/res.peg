@@ -1,0 +1,25 @@
+{a}; A !. ;
+A <- a a / A A ;
+---
+{a}; !(.) / A ;
+A <- B a ;
+B <- a B a / <e> ;
+---
+{a}; A !. ;
+A <- a a !. / A A ;
+---
+{a}; !(.) / A ;
+A <- a a / B B ;
+B <- a a / C C ;
+C <- a a / C C ;
+---
+{a}; !(.) / A ;
+A <- B B ;
+B <- C C ;
+C <- D D ;
+D <- E E ;
+E <- F F ;
+F <- G G ;
+G <- H H ;
+H <- I I ;
+I <- a / a a ;

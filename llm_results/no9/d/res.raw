@@ -1,0 +1,25 @@
+
+3279 ms
+S ::= D D '_' D D D D (!.)*
+D ::= '0' / '1'
+
+2022 ms
+r ::= S -> Num !.
+Num -> D D '_' D D D D
+D -> '0' / '1'
+
+2605 ms
+S ::= Start -> Two '_' Four Rest
+Two ::= '0''0' / '0''1' / '1''0' / '1''1'
+Four ::= Bit Bit Bit Bit
+Bit ::= '0' / '1'
+Rest ::= .*
+
+1613 ms
+S ::= A -> D D '_' D D D D
+D ::= '0' / '1'
+A ::= .
+
+1775 ms
+r ::= S -> D D '_' D D D D
+r ::= D -> '0' / '1'

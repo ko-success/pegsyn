@@ -1,0 +1,30 @@
+- Name        : no1.arit
+- Description : Parse basic plus and minus arithmetic expressions for natural numbers.
+- Oracle      : {n, p, m}; n ((m / p)n)*; // size = 4
+- Symbols     : n, p, m
+- Examples    :
+  -  -> X
+  - n -> 
+  - nn -> n 
+  - nnn -> nn
+  - nmn -> 
+  - nnp -> np
+  - nnm -> nm
+  - np -> p
+  - npn -> 
+  - npnpn -> 
+  - nmnpnmn ->
+  - npp -> pp
+  - npm -> pm
+  - nm -> m
+  - nmn -> 
+  - nmp -> mp
+  - nmm -> mm
+  - p -> X
+  - pn -> X
+  - pm -> X
+  - m -> X
+  - mn -> X
+  - mp -> X
+  - mpn -> X
+  - mm -> X

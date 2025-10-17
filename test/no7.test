@@ -1,0 +1,365 @@
+- Examples : 
+-  -> 
+- a -> 
+- ab -> 
+- aba -> 
+- abc -> X
+- abca -> X
+- abcbb -> X
+- ac -> 
+- aca -> 
+- acccc -> 
+- b -> 
+- ba -> 
+- bbc -> 
+- bc -> 
+- bcc -> 
+- c -> 
+- ca -> 
+- cb -> 
+- cca -> 
+- cacb -> 
+- abcaa -> X
+- abccb -> X
+- abcbbcb -> X
+- abccc -> X
+- abcab -> X
+- abcacac -> X
+- abccab -> X
+- abcbc -> X
+- abcbcc -> X
+- abccaa -> X
+- abcaca -> X
+- abccbcbc -> X
+- abcbbc -> X
+- abcccb -> X
+- abcbbbc -> X
+- abcaaab -> X
+- abcccbba -> X
+- abcbaa -> X
+- abcbabaa -> X
+- abcacb -> X
+- abcbcbc -> X
+- abcbbcbb -> X
+- abcba -> X
+- abcbbb -> X
+- abcac -> X
+- abcc -> X
+- abcabc -> X
+- abccac -> X
+- abcb -> X
+- abcbaaac -> X
+- abccca -> X
+- abcabac -> X
+- abcacccb -> X
+- abcaaaaaac -> X
+- abcccbc -> X
+- abcbabcaaac -> X
+- abcccac -> X
+- abcabcaa -> X
+- abcaabb -> X
+- abcaac -> X
+- abcabb -> X
+- abcbcb -> X
+- abcbca -> X
+- abccaca -> X
+- abccacac -> X
+- abcccca -> X
+- abcaaa -> X
+- abcbcaab -> X
+- abcbbaaca -> X
+- abcaaaacc -> X
+- abccbcabcabbaac -> X
+- abcaaacbbbbbc -> X
+- abcccacbabbacbbab -> X
+- abcbaaacbca -> X
+- abcbccbcacc -> X
+- abcbccbacca -> X
+- abcbcaaaacac -> X
+- abcbaaaabaac -> X
+- abcbbacbacbcca -> X
+- abcabccbaacbaaa -> X
+- abcacacabbba -> X
+- abcbaaaaba -> X
+- abcbbbccbab -> X
+- abcabcaaccbbabc -> X
+- abcacaacbbcba -> X
+- abcbbbcaba -> X
+- abcaccaaaaaa -> X
+- abcaaaacccb -> X
+- abcacbbbaccb -> X
+- abcabcaac -> X
+- abcaaacaabc -> X
+- abcbbbbbabbccc -> X
+- abcbaacaaaacab -> X
+- abcbcbcbbc -> X
+- abcccabcaacb -> X
+- abcccabccba -> X
+- abcabacbacacc -> X
+- abcaabcbac -> X
+- abcacbac -> X
+- abcacbbbbccaa -> X
+- abcbbaabbbaccbbbc -> X
+- abcccc -> X
+- abccaccaccccb -> X
+- abcaaabbac -> X
+- abcbccbcbbbca -> X
+- abcccbaaca -> X
+- abcabbbabcac -> X
+- abcaacbba -> X
+- abccbacacccaaa -> X
+- abcaaabcbbb -> X
+- abcbcacab -> X
+- abcccacacaba -> X
+- abcabbccaabbca -> X
+- abcbbbbbabbc -> X
+- abcacbbaba -> X
+- abcccccbbcaabac -> X
+- abcabcbaababbb -> X
+- abcaacc -> X
+- abcaaaccab -> X
+- abcabbbbbb -> X
+- abccacabaaabbab -> X
+- abcbbbaacbcccac -> X
+- abcabaaabccba -> X
+- abcccbcbcabacb -> X
+- abcaccca -> X
+- abcbcacccabb -> X
+- abcabcaaaa -> X
+- abccbccbccbca -> X
+- abcbaccbcc -> X
+- abccbccbbba -> X
+- abcbababbcabb -> X
+- abcbcbcbb -> X
+- abcabbcbcccca -> X
+- abcccbaaaccbb -> X
+- abccbabbcaa -> X
+- abccbcaaca -> X
+- abcabacbbbbbba -> X
+- abcabacccb -> X
+- abcbaaccbcc -> X
+- abccacccbaaa -> X
+- abccbabbcba -> X
+- abcabbccbcaabbc -> X
+- abccbbcacacb -> X
+- abcaabacaccb -> X
+- abccacaabaa -> X
+- abccaccacaccabb -> X
+- abcccaa -> X
+- abcccababa -> X
+- abccaaabc -> X
+- abcaccbaacacac -> X
+- abccaacaaaa -> X
+- abcaccbbba -> X
+- abccacacbcb -> X
+- abcaaaacbbbc -> X
+- abcbaaaccacabcc -> X
+- abcbaccccb -> X
+- abcbaaababcac -> X
+- abcaabcaab -> X
+- abcbbcbbbcabc -> X
+- abccbccbc -> X
+- abccbacacabbbca -> X
+- abccbcbcaabc -> X
+- abcbbccb -> X
+- abcacccaabba -> X
+- abcbbbcaababc -> X
+- abcacabbac -> X
+- abcaaabaaa -> X
+- cbcccbba -> 
+- cbcbcabb -> 
+- bbbcccbcac -> 
+- caababbbbacc -> 
+- ccbcabbaaa -> 
+- cccbbacaa -> 
+- caacacbababa -> 
+- babcbbaabbac -> 
+- ccacccababa -> 
+- bccbcaaa -> 
+- cbbcac -> 
+- cbcbbaa -> 
+- cccbab -> 
+- bacbcbc -> 
+- bbbaaccaaacaa -> 
+- abcbcabbb -> X
+- abcccbccabcc -> X
+- bbbacccac -> 
+- aaacbccbbbcc -> 
+- caccacacab -> 
+- cbbcccabacb -> 
+- cbacaaca -> 
+- babbacbcb -> 
+- aababb -> 
+- bbbbcaa -> 
+- bbcababc -> 
+- caaaab -> 
+- bacaabacbbb -> 
+- bbbcbbcaa -> 
+- cbaaccbaacbcc -> 
+- cbbbacbacc -> 
+- abbbcbacbc -> 
+- cbcbaabbaaab -> 
+- bcabbbacbbacb -> 
+- cabbcab -> 
+- cbabbbbba -> 
+- aabcbaacccc -> 
+- abbacbca -> 
+- bcbabbbccaaaaaca -> 
+- acbcacac -> 
+- bcacaabbc -> 
+- babbbbaa -> 
+- baaabbbbca -> 
+- bbcaaaa -> 
+- cabcbcabbab -> 
+- bbcabbbcaaaa -> 
+- abaaaaccbaabb -> 
+- ccaabacccc -> 
+- bbabbccab -> 
+- cababbacab -> 
+- acabcccaccbcb -> 
+- bbabc -> 
+- caaaacbabbac -> 
+- cbcbbaccc -> 
+- ababacaccabcbba -> 
+- cbaccbbbaab -> 
+- cbccacabbbbc -> 
+- cbccbaccaca -> 
+- cabacba -> 
+- ccacbbbaca -> 
+- bacaccbbccbc -> 
+- babcaaaaabbcb -> 
+- cbaacbcbbb -> 
+- bbaac -> 
+- bbbccacaccab -> 
+- ccacbababc -> 
+- bbac -> 
+- acacacaa -> 
+- cbababcaacac -> 
+- aacccccb -> 
+- cccbcbcbbbaa -> 
+- cbbaba -> 
+- baccbbabcc -> 
+- baaaaccba -> 
+- cacbbaaabccca -> 
+- aaaac -> 
+- accbacb -> 
+- abcaabbb -> X
+- bcbbcbbcba -> 
+- cbbcb -> 
+- cabaabccc -> 
+- bbbaabb -> 
+- acabbb -> 
+- baaacacbc -> 
+- baccacbb -> 
+- abacacbccbcc -> 
+- baabcccab -> 
+- aacababbbba -> 
+- bbaabcbba -> 
+- aabababb -> 
+- ccbcaabbbbc -> 
+- cbbbcccb -> 
+- cacbbaaaaaa -> 
+- aacacba -> 
+- baaacacaca -> 
+- bccac -> 
+- aabacbaaca -> 
+- bcccac -> 
+- aacbbcaaccc -> 
+- bcbacbbbcbbbbcabba -> 
+- babcccacbbcacbaaa -> 
+- bccacaacaacaaccb -> 
+- aababaabbbcb -> 
+- aaabbbccbcabba -> 
+- aabacabaccacbbc -> 
+- ccbcccaaccc -> 
+- abbababaaaaacabcc -> 
+- caccacbbababc -> 
+- acaaaabccbbbabbb -> 
+- ccccccbcbbcbb -> 
+- abbabacabaaccbbcbbc -> 
+- cbccbaccbaaacc -> 
+- accbabcbbaacacbba -> 
+- aacbaaccbaac -> 
+- cbacaacccbcaccbcbac -> 
+- cbbaccaaababac -> 
+- cbcabccbccacbbaaccb -> 
+- cbcbcacaabaabcbcc -> 
+- cccbbcccaabbabab -> 
+- aaacccbbcccc -> 
+- cbbbaacab -> 
+- acabbcbbcbc -> 
+- baaccbabbaaa -> 
+- bbcbcaacbcba -> 
+- abacbbabbcaabbccbbc -> 
+- bbabbbaaaaa -> 
+- ccbaaaccbabaccbbcc -> 
+- bcacabcbcaacaa -> 
+- cabbcababccbccbcc -> 
+- bccaaccbaacbcbbaccbaaacba -> 
+- bcaccbbbacb -> 
+- cbcababacbcc -> 
+- cbacbcbcbbabab -> 
+- aaaccbbbccbcbabbb -> 
+- baaaaaacab -> 
+- cbabacbccaaaabcacc -> 
+- abacbcaabcbbbbbc -> 
+- cbacabbcbbbacbbaac -> 
+- abaaabaacbabaccbcc -> 
+- cbcaabaaabbac -> 
+- cbbcbcaabca -> 
+- baaabacccbca -> 
+- abbcbbacccbacb -> 
+- bbabbbccbcccabcbb -> 
+- babbcccbaaba -> 
+- acabaccabaccaaacbcc -> 
+- cabcccccbaacbbc -> 
+- ccaaaccbccbcbcacbb -> 
+- cbbbaaacacbcbb -> 
+- aabacaccbbcabbbbacaa -> 
+- cbbbbbbbabccabcac -> 
+- acccaccbbbaaccbcc -> 
+- aababcbbabacba -> 
+- baabcbcbbaababbac -> 
+- aaabcaaccbabab -> 
+- caacacaabaaccaaaabccbc -> 
+- bbababaabbaabba -> 
+- bbbaccccccbbcaacc -> 
+- ccaccbacbbbcbaaa -> 
+- babbbaacaa -> 
+- baaabbccc -> 
+- caacaabbb -> 
+- acbabaacaaaaa -> 
+- bcabcacbbaacbccac -> 
+- bbcabaccabaacacb -> 
+- acabacaaccbbaa -> 
+- baccaacbaacbb -> 
+- aacbcbabcbacaabc -> 
+- acaabcabbbbbaacaab -> 
+- aacbbcbbccccaba -> 
+- ccaabbbbccbaa -> 
+- baccccbabcbcba -> 
+- cbbcaacaacab -> 
+- ccbabacbcbabaccbca -> 
+- bbcacbccabbacccabaac -> 
+- abcbaaabbbaccbbabbc -> X
+- babbccacccbbc -> 
+- acbacabacabbcc -> 
+- aabcbaacaacaabbbbc -> 
+- ababbaaacb -> 
+- ababcabbcbabaacbc -> 
+- cabcbbbbacabacaa -> 
+- acaaacbcbccb -> 
+- aacacabbccabbcc -> 
+- cbccbacccbaaccac -> 
+- baabcccbcbbb -> 
+- aaabccabcc -> 
+- caacabbaccbcaac -> 
+- bbcbaaccccaccbcc -> 
+- caacbcbccbabb -> 
+- cacbabcacabaaacaca -> 
+- abacacbcbcacacaaabc -> 
+- cabacccacab -> 
+- acabcbaabccacaaacbb -> 
+- bbcbccbbbccb -> 
+- aacbcbbacaaaaaa -> 
+- aaacaaaacbbacccb -> 

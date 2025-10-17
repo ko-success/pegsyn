@@ -1,0 +1,21 @@
+{a, b, c}; A !. ;
+A <- a b A / b a A / c A / c a a A / c a b a a b b a A / a a b / b b a / b b b b a a / b b b b b b b b b / c a a / c a c / c b a / c c a ;
+---
+{a, b, c}; A !. ;
+A <- <e> / a a? b A / b b* a a? A / c ( a a? b a? b? / a? c? a ) A ;
+---
+{a, b, c}; (A b)* A B ;
+A <- a A / c A / <e> ;
+B <- a b B / b a B / b b B / c a B / c c B / <e> ;
+---
+{a, b, c}; A !. ;
+A <- a B / b A a / c C / <e> ;
+B <- a B / b D ;
+C <- a C / b C / c / a ;
+D <- a / b D a ;
+---
+{a, b, c}; A !. ;
+A <- <e> / B / C / D ;
+B <- a a b ;
+C <- b* a a ;
+D <- c ( a A / b a / a a / a c ) ;

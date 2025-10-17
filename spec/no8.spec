@@ -1,0 +1,30 @@
+- Name        : no8.mod3$
+- Description : Check if the length of the input is a multiple of 3.
+- Oracle      : {a, b, c}; (. . .)* !.; // size = 5
+- Symbols     : a, b, c
+- Examples    :
+  -  -> 
+  - a -> X
+  - aa -> X
+  - aaaaa -> X
+  - aab -> 
+  - ab -> X
+  - ababab -> 
+  - abababaab -> 
+  - b -> X
+  - baaba -> X
+  - bb -> X
+  - bba -> 
+  - bbbbaa ->
+  - bbbbbbbbb ->
+  - c -> X
+  - ca -> X
+  - caa -> 
+  - cabaab -> 
+  - cabaaabb -> X
+  - cabaaabba -> 
+  - cac -> 
+  - cb -> X
+  - cba ->
+  - cca -> 
+  - cccc -> X
